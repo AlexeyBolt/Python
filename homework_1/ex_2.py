@@ -6,6 +6,10 @@
 #     for y in [True,False]:
 #         for z in [True,False]:
 #             print(x,'and',y,'or',z,'=',x and y or z)
+import os 
+os.system('cls')
+
+
 for x in range(2):
     for y in range(2):
         for z in range(2):
