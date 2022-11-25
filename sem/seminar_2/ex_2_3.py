@@ -6,3 +6,5 @@ os.system('cls')
 str1=str(input('введите первую строку: '))
 str2=str(input('введите вторую строку: '))
 print(str1.count(str2))
+print(int((len(str1) - len(str1.replace(str2, '')))/len(str2)))
+
