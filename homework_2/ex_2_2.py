@@ -3,3 +3,17 @@
 # Пример:
 
 # - пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
+
+import os 
+os.system('cls')
+import math
+
+n=int(input('введите число, для выявления списка элементов последовательностей: '))
+list_fact = []
+# print(f' факториал числа {n} является число: {math.factorial(n)} ') # доп решение(на случай необходимости)
+count = 1
+for i in range(1, n+1):
+    count=count*i
+    list_fact.append((count))
+
+print(list_fact)
