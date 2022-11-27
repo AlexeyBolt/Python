@@ -17,8 +17,8 @@ for i in range (-n,n+1):                # Выводим список элеме
 print(spisok_elements)                  # Выводим список элементов от -N до N
 
 print(type(a[0]))                       # Проверка типа данных
-# до этой строчки всё работает
-res = 1                                 # а вот тут полетел трешак
+
+res = 1                                 # само решение
 for item in a: 
     res *= spisok_elements[int(item)]
 
