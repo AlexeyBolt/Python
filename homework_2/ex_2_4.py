@@ -5,6 +5,21 @@
 import os 
 os.system('cls')
 
-with open('file.txt','r') as f:
+with open('file.txt','r') as f:    
     a = f.read().split('\n')
-print(a)
+print(a)                              # выводим элементы из TXT файла на экран
+
+spisok_elements=[]                    # создаем list
+n=int(input('Введите число N: '))           
+
+for i in range (-n,n+1):                # Выводим список элементов от -N до N
+    spisok_elements.append((i))         # Выводим список элементов от -N до N
+print(spisok_elements)                  # Выводим список элементов от -N до N
+
+print(type(a[0]))                       # Проверка типа данных
+# до этой строчки всё работает
+res = 1                                 # а вот тут полетел трешак
+for item in a: 
+    res *= spisok_elements[int(item)]
+
+print(res)
