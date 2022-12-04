@@ -6,6 +6,8 @@
 
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19 
 # (максимальное значение у числа 1.2 ,минимальное у 10.01)
+import os 
+os.system('cls')
 
 my_list = [float(elements) for elements in input('Введите элементы массива через пробел: ').split()]
 new_list = [round(i%1,2) for i in my_list if i%1 != 0]
