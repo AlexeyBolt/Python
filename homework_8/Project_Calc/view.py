@@ -4,16 +4,17 @@
 def choose() -> str:
     """Выбор режима работы приложения"""
 
-    print('1 - solve exspression\n\
-    2 - solve equasion\n\
-    3 - simplify polinom\n\
-    4 - show history')
-    return input('Choose mood: ')
+    print(
+        '1 - выражение \n\
+2 - уравнение\n\
+3 - упростить полином\n\
+4 - показать историю')
+    return input('ваш выбор: ')
 
 def get_expr() -> str:
     """Запрашивает у пользователя задачу"""
 
-    return input('Enter exspression: ')
+    return input('введите решаемый пример : ')
 
 
 def show_res(res: str):

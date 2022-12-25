@@ -1,3 +1,3 @@
-import Project_Calc.controller as controller
+import controller
 
 controller.run_calc()

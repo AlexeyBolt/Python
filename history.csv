@@ -1,0 +1,8 @@
+
+5;5
+2+3;5
+10-5;5
+2x-3=0;Incorrect input
+x**3 - 8 = 0;Incorrect input
+x**2 - 1;-1 || 1
+x**2 + 3*x**2 + 4;4*x**2 + 4

@@ -1,6 +1,6 @@
-import Project_Calc.view as view
-import Project_Calc.model as model
-import Project_Calc.logger as logger
+import view
+import model
+import logger
 
 # Реализовать калькулятор с системой логирования:
 # 1) решение вводимых примеров (2+3) -> 5 ; 2**3 + (3+6)/(1+2) ->  11
